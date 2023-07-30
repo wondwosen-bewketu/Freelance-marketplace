@@ -1,0 +1,214 @@
+.job-list {
+    max-width: 2000px;
+    margin-top: 90px;
+    
+  }
+  
+  .job-list__heading {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #34495e;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  
+  
+.job-list__grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  grid-gap: 2rem;
+}
+
+.job-list__card {
+  width: 94%;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+  
+  .job-list__card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .job-list__card-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .job-list__card-title {
+    font-size: 1.8rem;
+    color: #34495e;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+  }
+  
+  .job-list__card-link {
+    background-color: green;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+  }
+  
+  .job-list__card-link:hover {
+    background-color: #27ae60;
+  }
+  
+  .job-list__card-details {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .job-list__card-details li {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #34495e;
+  }
+  
+  .job-list__card-details span {
+    font-weight: bold;
+    margin-right: 0.5rem;
+  }
+  .search-bar {
+    position: absolute;
+    margin-top: 50px;
+  top: 100px;
+  right: 30px;
+  display: flex;
+  align-items: center;
+  }
+  
+  .search-bar input {
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 1.2rem;
+    font-weight: 400;
+    width: 25rem;
+    max-width: 100%;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .search-bar input:focus {
+    outline: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+  }
+  
+  .job-list__card-expired{
+    background-color: rgb(229, 67, 67);
+    color:white;
+    font-size: 23px;
+    padding:1px 25px;
+    border: 1px solid black;
+    border-radius: 3px;
+  }
+  
+ /* browsealljob.css */
+ .job-list__card-time {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #888;
+  margin-top: 10px;
+}
+
+.job-list__card-time::before {
+  content: "Posted ";
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.job-list__card-time span {
+  font-weight: 400;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination__list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination__item {
+  margin: 0 5px;
+}
+
+.pagination__button {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination__button:hover {
+  background-color: #e0e0e0;
+}
+
+.pagination__button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #333;
+}
+
+.pagination__item.active .pagination__button {
+  background-color: #333;
+  color: #fff;
+}
+
+.toggle{
+  margin-left: 30px;
+  background-color:green;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+}
+.toggle:hover
+{
+  background-color:rgb(89, 139, 89);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 480px) {
+  .pagination__item {
+    margin: 0 3px;
+  }
+
+  .pagination__button {
+    padding: 6px 10px;
+  }
+}

@@ -1,0 +1,23 @@
+.phone-input-container {
+    position: relative;
+  }
+  
+  .phone-input-container .phone-input {
+    padding-left: 40px; /* Adjust the padding as needed */
+    width: 100%;
+  }
+  
+  .phone-input-container .country-select {
+    position: absolute;
+    top: 50%;
+    left: 10px; /* Adjust the left position as needed */
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+  
+  .phone-input-container .country-select .country-flag {
+    width: 24px; /* Adjust the flag size as needed */
+    height: auto;
+    margin-right: 5px; /* Adjust the spacing between flag and country code as needed */
+  }
+  

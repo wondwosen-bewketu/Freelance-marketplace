@@ -1,0 +1,152 @@
+/* employerMessage.css */
+
+/* Messages Container */
+.messages-container {
+  text-align: center;
+}
+
+#create-wallet-btn {
+  padding: 10px 20px;
+  margin-top: -10px;
+  font-size: 20px;
+  background-color:rgb(21, 62, 21);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#create-wallet-btn:hover{
+  background-color: rgb(48, 63, 25);
+}
+
+/* Modal Styles */
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  max-width: 500px;
+  width: 100%;
+  max-height: 80vh; /* Set a maximum height for the modal */
+  overflow-y: scroll; /* Enable vertical scrolling */
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.modal h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.messages-grid-item {
+  width: 100%; /* Make the grid item occupy the full width of the modal */
+  margin-bottom: 20px;
+}
+
+.messages-grid-item h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.message-item {
+  margin-bottom: 10px;
+}
+
+.reply-button {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancel-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 24px;
+  background: transparent;
+  border: none;
+  color: #000;
+  cursor: pointer;
+}
+
+.reply-form {
+  width: 100%; /* Make the reply form occupy the full width of the modal */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.reply-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.send-button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.cancel-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 24px;
+  background: transparent;
+  border: none;
+  color: #000;
+  cursor: pointer;
+}
+
+.cancel-icon {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+/* Hide Scrollbar Styles */
+.modal::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+.modal::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.modal::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}

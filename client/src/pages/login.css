@@ -1,0 +1,138 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 30px;
+  height: 80vh;
+}
+
+.login-heading {
+  color: green;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 430px;
+  margin-bottom: 20px;
+  height: 550px;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.9);
+  border-radius: 10px;
+}
+
+.form-groupp {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  width: 98%;
+}
+
+.form-groupp input,
+.form-groupp select {
+  border: 1px solid green;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.btn {
+  padding-top: 20px;
+  border-radius: 5px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.btnlogin {
+  background-color: white;
+  border: 1px solid green;
+  color: green;
+  margin-top: 40px;
+  font-size: 1.5rem;
+  padding: 0.5rem 4rem;
+  border-radius: 12px;
+}
+
+.btnlogin {
+  background-color: #d8e7c9;
+  border-color: green;
+  color: green;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: #fff;
+  border: none;
+  margin-top: 20px;
+}
+
+.error-text {
+  color: red;
+  margin-top: 20px;
+}
+
+@media (max-width: 968px) {
+  .login-container {
+    padding: 10px;
+    margin: 20px;
+    height: auto;
+  }
+
+  .login-form {
+
+    padding: 30px;
+      width: 100%;
+   
+      border-radius: 0;
+  }
+
+  .form-groupp input,
+  .form-groupp select {
+    font-size: 14px;
+    margin-top: 3px;
+  }
+
+  .btnlogin {
+    font-size: 1.2rem;
+    padding: 0.5rem 2rem;
+  }
+}
+
+
+.password-input {
+  position: relative;
+}
+
+.password-input .form-control {
+  padding-right: 40px; /* Add space for the eye icon */
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.password-toggle.show {
+  color: #888;
+}
+
+.password-toggle.show:hover {
+  color: #333;
+}

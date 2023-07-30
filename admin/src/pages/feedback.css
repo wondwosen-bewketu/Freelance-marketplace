@@ -1,0 +1,52 @@
+.feedback-list {
+    margin: 2rem;
+  }
+  
+  .feedback-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .feedback-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .feedback-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  .feedback-title-email {
+    font-size: 1.5rem;
+    color: rgb(17, 17, 208);
+    cursor: pointer;
+    text-decoration: dashed;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .feedback-content {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    padding-right: 10rem;
+  }
+  .feedback-delete-button {
+    padding-right: 10rem;
+    background-color: #e53935;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 2rem;
+   
+  }
+  
+  .feedback-delete-button {
+    background-color: #c62828;
+  }
+  

@@ -1,0 +1,69 @@
+.messages-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.messages-grid-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.messages-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.message-item {
+  margin-bottom: 10px;
+}
+
+.message-item p {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #e5e5ea;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+.message-item.sent {
+  align-self: flex-end;
+  text-align: right;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.reply-form textarea {
+  width: 100%;
+  height: 80px;
+  resize: none;
+  padding: 5px;
+}
+
+.reply-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.reply-buttons button {
+  margin-left: 5px;
+}
+
+.reply-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.send-button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}

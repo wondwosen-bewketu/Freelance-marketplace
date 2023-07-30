@@ -1,0 +1,98 @@
+
+.modal-content {
+  max-width: 500px;
+  max-height: 400px;
+  width: 100%;
+  height: auto;
+  overflow-y: auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.modal-header {
+  padding: 5px;
+  background-color: green;
+  color: #fff;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.modal-header h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.modal-form {
+  padding: 20px;
+}
+
+.close-modal-button {
+  padding: 10px 16px;
+  font-size: 16px;
+  border: none;
+  background-color: #dc3545;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.close-modal-button:hover {
+  background-color: #c82333;
+}
+
+.wallet-button {
+  padding: 10px 16px;
+  font-size: 16px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.wallet-button:hover {
+  background-color: #0056b3;
+}
+
+/* Additional Styles */
+.modal-header h2 {
+  font-weight: bold;
+}
+
+.modal-form .modal-action-button {
+  padding: 10px 16px;
+  margin-top: 10px;
+  font-size: 16px;
+  border: none;
+  background-color: #28a745;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.modal-form .modal-action-button:hover {
+  background-color: #218838;
+}
+
+.modal-form .modal-action-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(40, 167, 69, 0.5);
+}
+
+.create-wallet-btn
+{
+  background-color: antiquewhite;
+  color: black;
+  font-size: 15px;
+}
+.create-wallet-btn:hover
+{
+  background-color: antiquewhite;
+  color: black;
+  font-size: 15px;
+}

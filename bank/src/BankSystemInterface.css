@@ -1,0 +1,72 @@
+.bank-system-container {
+    display: flex;
+    flex-direction: column;
+   
+    height: 100vh;
+    background-color: #f5f7fa;
+  }
+  
+  .bank-system-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  h1 {
+    font-size: 100px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .bank-system-subtitle {
+    font-size: 30px;
+    color: #555;
+    margin-top: 0;
+  }
+  
+  .bank-system-content {
+    text-align: center;
+  }
+  
+  .bank-system-description {
+    font-size: 25px;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .bank-system-button {
+    display: inline-block;
+    padding: 12px 100px;
+    margin: auto;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .create-account-button {
+    background-color:  green;
+    margin-right: 10px;
+  }
+  
+  .deposit-button {
+    background-color:  green;
+    margin-right: 10px;
+  }
+  
+  .balance-button {
+    background-color: green;
+   
+  }
+  
+  .bank-system-button:hover {
+    opacity: 0.8;
+  }
+  
+  .bank-system-button-group {
+    display: flex;
+    justify-content: center;
+  }
+  

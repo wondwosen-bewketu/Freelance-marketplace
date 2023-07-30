@@ -1,0 +1,65 @@
+.browse-employer {
+ 
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.browse-employer__heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid white
+}
+
+.browse-employer__table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f9f9f9;
+}
+
+.browse-employer__table th,
+.browse-employer__table td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.browse-employer__table th {
+  font-weight: bold;
+  background-color: #333;
+  color: #fff;
+}
+
+.browse-employer__table tbody tr:nth-child(even) {
+  background-color:  #ccc;
+}
+
+.browse-employer__table tbody tr:hover {
+  background-color: #e9e9e9;
+}
+
+.browse-employer__card-delete {
+  color: #fff;
+  background-color: #dc3545;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.browse-employer__card-delete:hover {
+  background-color: #c82333;
+}
+

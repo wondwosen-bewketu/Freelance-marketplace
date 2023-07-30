@@ -1,0 +1,81 @@
+
+.feedback-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
+}
+  
+ 
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.success-message,
+.error-message {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.success-message svg {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.input-wrapper {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+.feedbackbutton{
+  display: inline-block;
+  padding: 10px 10px;
+  margin-top: -10px;
+  font-size: 20px;
+  border: none;
+  background-color:rgb(24, 61, 19);
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}

@@ -1,0 +1,542 @@
+/* Base Styles */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    
+    background-color:white;
+    margin: 0;
+  }
+  
+  header {
+    background-color: white;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    color: green;
+    display: flex;
+    justify-content: space-between;
+    max-height: 100px;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    display: flex;
+    font-size: 2px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin-right: 1rem;
+       color: black;
+    font-weight: bold;
+  }
+  
+  nav ul li:last-child {
+    
+    
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    color: white;
+    font-size: 10px;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #7ae07e;
+  }
+  /* Main Styles */
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .main-content {
+    flex-basis: 25%;
+    padding-right: 20px;
+  }
+  /* Overall body style */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  /* Avatar and username style */
+  .avatar {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .username {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  /* Employer info style */
+  .employer-info {
+    margin: 20px 0;
+  }
+  
+  .employer-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .employer-info p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Navigation style */
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .nav li {
+    margin: 10px;
+  }
+  
+  .nav a {
+    display: block;
+    background-color: rgb(7, 39, 7);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav a:hover {
+    background-color: #5f9a90;
+  }
+  
+  /* Customization and customer support style */
+  .customization,
+  .customer-support {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+  }
+  
+  .customization h3,
+  .customer-support h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .customization p,
+  .customer-support p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .customization button,
+  .customer-support button {
+    background-color: green;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .customization button:hover,
+  .customer-support button:hover {
+    background-color: green;
+  }
+  
+ 
+  .wallet,
+  .contact,
+  .reputation,
+  .company,
+  .social-media-icons {
+   
+   
+    border-radius: 6px;
+    margin-right: -40x;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    width: 250px;
+    margin-bottom: 50px;
+  }
+  .wallecticon
+  {
+    font-size: 40px;
+    color:rgba(0, 128, 0, 1);
+  }
+  .contacticon
+  {
+    font-size: 40px;
+    color:rgba(0, 128, 0, 1);
+    margin-left: 100px;
+  
+   
+  }
+  .addressicon
+  {
+    font-size: 30px;
+    color: rgb(44, 44, 44);
+  }
+  .reputationicon
+  {
+    font-size: 28px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:rgba(0, 128, 0, 1);
+    margin-left: 40px;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: green;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .article-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+  
+  .employer-info {
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .employer-info img {
+    display: flex;
+    margin: 20px auto;
+    max-width: 100%;
+  }
+  
+  .employer-info h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .employer-info p {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .employer-info button {
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .employer-info button:hover {
+    background-color: #61bb75;
+  }
+  
+  @media (max-width: 600px) {
+    .employer-info {
+      max-width: 100%;
+    }
+  }
+  
+  .social-media-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-media-icons a {
+    margin: 0 10px;
+    color: green;
+    font-size: 50px;
+  }
+  
+  .social-media-icons a:hover {
+    color: #0077B5;
+  }
+  
+  .social-media-icons .icon {
+    display: inline-block;
+    font-size: 24px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  }
+  .star-icon {
+    color: gold;
+    font-size: 30px; /* adjust the star size as desired */
+    transition: color 0.5s ease-in-out; /* add a smooth transition effect on hover */
+  }
+  
+ 
+
+  
+.star-icon.gold {
+  color: gold;
+}
+
+.star-icon:not(.gold) {
+  color: #ccc; /* set the color to gray for the remaining stars */
+}
+.star-icon:hover {
+  color: #f1c40f; /* set the star color to a slightly darker shade of gold on hover */
+  cursor: pointer; /* add a pointer cursor on hover to indicate interactivity */
+}
+  
+  
+  
+  
+  @media (max-width: 767px) {
+    main {
+      flex-direction: column;
+      align-items: stretch;
+    }
+    
+    .main-content,
+    .aside-content,
+    .article-container {
+      flex-basis: auto;
+      padding: 0;
+    }
+    
+    .employer-info {
+      margin-bottom: 0;
+    }
+  }
+  /* Default styles for larger screens */
+/* Add your existing CSS styles here */
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 768px) {
+  .main-content {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .avatar {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+  }
+
+  .username {
+    font-size: 24px;
+  }
+
+  .employer-info {
+    margin-bottom: 20px;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .nav li {
+    margin-bottom: 10px;
+  }
+
+  .customization,
+  .customer-support {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  .customization button,
+  .customer-support button {
+    display: block;
+    width: 100%;
+  }
+
+  .aside-content {
+    padding: 20px;
+  }
+
+  .wallet h3,
+  .wallet h3 + h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .contact h3,
+  .reputation h3,
+  .Company h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .contact ul,
+  .Company ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .contact li,
+  .Company li {
+    margin-bottom: 5px;
+  }
+
+  .social-media-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .social-media-icons .icon {
+    margin: 0 10px;
+  }
+}
+/* Default styles for larger screens */
+/* Add your existing CSS styles here */
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 768px) {
+  /* ... */
+
+  .aside-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .wallet {
+    margin-bottom: 20px;
+
+    text-align: center;
+  }
+
+  .wallet h3,
+  .wallet h3 + h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .contact,
+  .reputation,
+  .Company {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .contact h3,
+  .reputation h3,
+  .Company h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .contact ul,
+  .Company ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .contact li,
+  .Company li {
+    margin-bottom: 5px;
+  }
+
+  .social-media-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .social-media-icons .icon {
+    margin: 0 10px;
+  }
+}
+
+.btn-primaryyy {
+ 
+  display: inline-block;
+  padding: 10px 10px;
+  margin-top: -100px;
+  font-size: 16px;
+  border: none;
+  background-color: green;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.logoutbutton
+{
+  display: inline-block;
+  padding: 10px 10px;
+  margin-top: -70px;
+  font-size: 15px;
+  border: none;
+  background-color: rgb(206, 24, 24);
+  color: #000000;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}

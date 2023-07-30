@@ -1,0 +1,60 @@
+.employerheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .employerlogo{
+    font-size: 27px;
+    font-weight: bold;
+    color: green;
+    transition: all 0.3s ease;
+  }
+  .employerlogo:hover {
+    color:rgb(48, 69, 48)
+  }
+  
+  .employernav .employerul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .employernav li {
+    margin: 0 20px;
+    position: relative;
+  }
+  
+  .employernav a {
+    text-decoration: none;
+    color: #555;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .employerul li a:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:black;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+  }
+  .employerul li a:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+  
+ 
+  

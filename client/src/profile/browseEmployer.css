@@ -1,0 +1,249 @@
+.browse-employer {
+  padding: 40px;
+  background-color: #f8f9fa;
+}
+
+.browse-employer__heading {
+  font-size: 36px;
+  color: #212529;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.browse-employer__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Display three cards in a row */
+  gap: 20px;
+  margin-top: 40px;
+}
+
+
+.browse-employer__card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+}
+.browse-employer__card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.browse-employer__card:hover .browse-employer__card-title {
+  color:green;
+}
+
+.browse-employer__card:hover .browse-employer__card-link {
+  background-color: green;
+  color: #fff;
+}
+.browse-employer__card:active {
+  background-color: #f8f9fa;
+}
+.browse-employer__grid {
+  opacity: 0;
+  animation: fade-in 0.5s ease-in-out forwards;
+}
+.search-barr {
+  position: absolute;
+  margin-top: 20px;
+top: 100px;
+right: 30px;
+display: flex;
+align-items: center;
+}
+
+.search-barr input {
+  padding: 4rem;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  font-size: 1.2rem;
+  font-weight: 400;
+  width: 70rem;
+  max-width: 100%;
+  transition: all 0.2s ease-in-out;
+}
+
+.search-barr input::placeholder {
+  color: #b5b5b5;
+}
+
+
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.browse-employer__card-details {
+  max-height: 78px;
+  overflow: hidden;
+  transition: all 0.75s ease-in-out;
+}
+
+.browse-employer__card:hover .browse-employer__card-details {
+  max-height: 300px;
+}
+.browse-employer__card-link {
+  scroll-behavior: smooth;
+}
+
+.browse-employer__card-link:focus {
+  outline: none;
+}
+
+
+.browse-employer__card-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f5f5f5;
+}
+
+.browse-employer__card-title {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.browse-employer__card-link {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: green;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.browse-employer__card-link-message {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: rgb(51, 126, 230);
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.browse-employer__card-link:hover {
+  background-color: #0069d9;
+}
+
+.browse-employer__card-details {
+  list-style: none;
+  padding: 1rem;
+  margin: 0;
+}
+
+.browse-employer__card-details li {
+  margin-bottom: 1rem;
+}
+
+.browse-employer__card-details span {
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination__list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.pagination__item {
+  cursor: pointer;
+  margin-right: 5px;
+  padding: 5px 10px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  color: #555;
+  transition: background-color 0.3s;
+}
+
+.pagination__item:hover {
+  background-color: #ddd;
+}
+
+.pagination__item.active {
+  background-color: #555;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .browse-employer {
+    padding: 20px;
+  }
+
+  .search-barr {
+    position: static;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .search-barr input {
+    width: 100%;
+    max-width: 250px;
+    margin-right: 10px; /* Add some spacing between the input and button */
+  }
+
+  .search-barr button {
+    padding: 10px 15px;
+    border: none;
+    background-color: green;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+  }
+
+  .search-barr button:hover {
+    background-color: #0069d9;
+  }
+  .browse-employer__grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .browse-employer__card {
+    padding: 15px;
+  }
+
+  .browse-employer__card-details {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.75s ease-in-out;
+  }
+
+  .browse-employer__card:hover .browse-employer__card-details {
+    max-height: 200px;
+  }
+
+  .browse-employer__card-heading {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+
+  .browse-employer__card-title {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+
+  .browse-employer__card-link {
+    font-size: 0.9rem;
+    padding: 0.3rem 0.6rem;
+    border-radius: 3px;
+  }
+}

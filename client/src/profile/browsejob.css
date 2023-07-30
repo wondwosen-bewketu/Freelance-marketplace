@@ -1,0 +1,102 @@
+.job-list__card {
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .job-list__card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  }
+  
+  .job-list__card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    color: black;
+  }
+  
+  .job-list__notification-count {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 50%;
+    margin-left: 5px;
+  }
+  
+  .job-list__card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .job-list__card-date {
+    font-size: 0.8rem;
+    color: #aaa;
+  }
+  
+  .job-list__card-description {
+    margin-top: 20px;
+    font-size: 0.9rem;
+  }
+  
+  .job-list__card-details {
+    padding: 10px;
+  }
+  
+  .job-list__card-details ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .job-list__card-details li {
+    margin-bottom: 5px;
+  }
+  
+  .job-list__card-link {
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #e6e6e6;
+    margin-bottom: 10px;
+    align-self: flex-start;
+  }
+  .search-bar {
+    position: absolute;
+  top: 100px;
+  right: 30px;
+  display: flex;
+  align-items: center;
+  }
+  
+  .search-bar input {
+    padding: 1rem;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    font-size: 1.2rem;
+    font-weight: 400;
+    width: 25rem;
+    max-width: 100%;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .search-bar input:focus {
+    outline: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+  }
+  .job-list__card-date_expired{
+   color: red;
+    font-size: 23px;
+   
+  }

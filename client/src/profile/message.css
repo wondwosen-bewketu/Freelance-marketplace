@@ -1,0 +1,111 @@
+/* message.css */
+
+/* Message Container */
+.message-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Message Heading */
+.message-heading {
+  margin-top: 0;
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+/* Message List */
+.message-list {
+  margin-top: 20px;
+}
+
+/* Message Item */
+.message-item {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Message Content */
+.message-content {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Message Sender */
+.message-sender {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #777;
+}
+
+/* Message Form */
+.message-form {
+  display: flex;
+  margin-top: 20px;
+}
+
+/* Message Input */
+.message-input {
+  flex-grow: 1;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+}
+
+/* Message Button */
+.message-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.message-button:hover {
+  background-color: #0056b3;
+}
+
+/* Add Animation to Message Item */
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.message-item {
+  animation: slideIn 0.3s ease-in-out;
+}
+
+/* Style the Submit Button */
+.message-button[type="submit"] {
+  background-color: #28a745;
+}
+
+.message-button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+/* Style the Cancel Button */
+.message-button[type="button"] {
+  background-color: #dc3545;
+}
+
+.message-button[type="button"]:hover {
+  background-color: #c82333;
+}
